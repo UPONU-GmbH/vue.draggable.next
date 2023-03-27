@@ -22,6 +22,22 @@ declare const draggableComponent: import("vue").DefineComponent<{
         type: StringConstructor;
         default: string;
     };
+    group: {
+        type: StringConstructor;
+        default: string;
+    };
+    filter: {
+        type: StringConstructor;
+        default: string;
+    };
+    swapClass: {
+        type: StringConstructor;
+        default: string;
+    };
+    swap: {
+        type: BooleanConstructor;
+        default: boolean;
+    };
     move: {
         type: FunctionConstructor;
         default: any;
