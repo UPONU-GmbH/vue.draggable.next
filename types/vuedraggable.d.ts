@@ -88,11 +88,19 @@ declare const draggableComponent: import("vue").DefineComponent<{
     list?: unknown[];
     modelValue?: unknown[];
     itemKey?: string | Function;
+    group?: string;
+    filter?: string;
+    swapClass?: string;
+    swap?: boolean;
 }>, {
     move: Function;
     clone: Function;
     componentData: Record<string, any>;
     tag: string;
+    group: string;
+    filter: string;
+    swapClass: string;
+    swap: boolean;
     list: unknown[];
     modelValue: unknown[];
 }>;
